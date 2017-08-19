@@ -51,6 +51,7 @@ Install Script
 --------------
 The following commands only need to be run once (as root) to configure the BBB.    
 
+        #~~~ UNTESTED COMMANDS ~~~#    
         cd    
         apt-get install build-essential    
         apt-get install git    
@@ -58,10 +59,11 @@ The following commands only need to be run once (as root) to configure the BBB.
         cd SetupBBB/    
 
 
-        echo “TEST=/heres/another/test” >> ~/.bashrc    
+Here is what happens behind the scenes:    
+1.  Passwords (debian and root) are changed to “BBB*”    
+2.  Environment variables are set (#SLOTS/$PINS/$PINGROUPS)    
 
 
 
-Here is what happens behind the scenes
-1.  Passwords (debian and root) are changed to “BBB*”
+
 
