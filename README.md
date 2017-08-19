@@ -30,11 +30,11 @@ If an SD card is already available, skip to step 5.
 
 Start Up Processes
 ------------------
-The network settings are not saved when each Linux OS is powered down.  Upon 
-a start up condition, run each of the respective commands as a “superuser”.  
-The Linux host names are probably specific to a single board and laptop, so 
-those might need to be revised when configuring new hardware.  Run 
-“ifconfig -a” to see the current USB/ETH names.    
+The network settings are not saved when each Linux OS is powered down.  Upon a 
+start up condition, run each of the respective commands as a “superuser”.  The 
+Linux host names are probably specific to a single board and laptop, so those 
+might need to be revised when configuring new hardware.  Run “ifconfig -a” to 
+see the current USB/ETH names.    
 
 Host terminal:    
 
