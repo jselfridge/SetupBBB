@@ -21,10 +21,10 @@ If an SD card is already available, skip to step 5.
 3.  Unzip image with “Unarchiver”    
 4.  Write image with “Pi Filler”    
 5.  Flash OS (insert card, hold button, power on)    
-6.  Delete ‘known_hosts’ with “sudo rm ~/.ssh/know_hosts”    
+6.  Delete ‘known_hosts’ with “sudo rm ~/.ssh/know_hosts” (first time connection)    
 7.  Connect to BBB via USB    
     a. ssh debian@192.168.7.2    
-    b. Accept authenticity warning with “yes”    
+    b. Accept authenticity warning with “yes” (first time connection)    
     c. Password: ‘temppwd’    
 
 
