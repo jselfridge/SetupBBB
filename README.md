@@ -37,9 +37,11 @@ those might need to be revised when configuring new hardware.  Run
 “ifconfig -a” to see the current USB/ETH names.    
 
 Host terminal:    
+
         ifconfig enxc8a030b8963d 192.168.7.1;  iptables --table nat --append POSTROUTING --out-interface enp0s10 -j MASQUERADE;  iptables --append FORWARD --in-interface enxc8a030b8963d -j ACCEPT;  echo 1 > /proc/sys/net/ipv4/ip_forward    
         
 BBB terminal:    
+
         ifconfig usb0 192.168.7.2;  route add default gw 192.168.7.1;  echo "nameserver 8.8.8.8" >> /etc/resolv.conf    
         
 Try running “apt-get update” to check the network connection.    
