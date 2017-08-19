@@ -49,10 +49,19 @@ Try running “apt-get update” to check the network connection.
 
 Install Script
 --------------
+The following commands only need to be run once (as root) to configure the BBB.    
+
+        cd    
+        apt-get install build-essential    
+        apt-get install git    
+        git clone https://github.com/jselfridge/SetupBBB.git    
+        cd SetupBBB/    
+
+
+        echo “TEST=/heres/another/test” >> ~/.bashrc    
 
 
 
-
-
-
+Here is what happens behind the scenes
+1.  Passwords (debian and root) are changed to “BBB*”
 
