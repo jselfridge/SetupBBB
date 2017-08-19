@@ -54,6 +54,8 @@ The following commands only need to be run once (as root) to configure the BBB.
         cd    
         apt-get install build-essential    
         apt-get install git    
+        git config --global user.name "Justin Selfridge"    
+        git config --global user.email "jselfridge@gmail.com"    
         git clone https://github.com/jselfridge/SetupBBB.git    
         cd SetupBBB/    
         bash ./setup.sh    
