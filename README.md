@@ -52,13 +52,7 @@ Install Script
 
 
 
-On BBB Power Up
----------------
-The board loses the networking settings on each reboot/shutdown.  After login, 
-run the following commands    
 
-        sudo su    
-        route add default gw 192.168.7.1; echo "nameserver 8.8.8.8" >> /etc/resolv.conf    
 
-and the network will be back in business.
+
 
