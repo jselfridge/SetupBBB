@@ -1,15 +1,11 @@
 #!/bin/bash
 
-# Bash script to configure the BBB.
+echo " "
+echo "Running setup.sh script to configure the BBB"
 
-# Assign new passwords
-passwd debian
-BBB*
-BBB*
-passwd root
-BBB*
-BBB*
+echo "Change passwords to 'BBB*' for both debian and root users"
+echo "debian:BBB*" | chpasswd
+echo "root:BBB*" | chpasswd
 
 
-
-
+echo " "
