@@ -51,19 +51,16 @@ Install Script
 --------------
 The following commands only need to be run once (as root) to configure the BBB.    
 
-        #~~~ UNTESTED COMMANDS ~~~#    
         cd    
         apt-get install build-essential    
         apt-get install git    
         git clone https://github.com/jselfridge/SetupBBB.git    
         cd SetupBBB/    
-
+        bash ./setup.sh    
 
 Here is what happens behind the scenes:    
 1.  Passwords (debian and root) are changed to “BBB*”    
 2.  Environment variables are set (#SLOTS/$PINS/$PINGROUPS)    
-
-
 
 
 
